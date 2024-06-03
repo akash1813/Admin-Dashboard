@@ -4,7 +4,7 @@ import '../styles/navigationBar.css';
 function navigationBar(){
     return (
         <div className="navbar">
-            <img className='image'src ='/logo192.png' alt=' company logo' /> 
+            <img className='image'src ='/TestLogo.svg' alt=' company logo' /> 
            <NavbarItems />
             <div>
             <NavSettings />

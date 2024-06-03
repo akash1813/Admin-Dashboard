@@ -1,0 +1,29 @@
+.profile{
+
+    height: 90rem;
+    width:18.5rem;
+    border: 4px solid none;
+    margin-top: 15px;
+    
+}
+
+
+.personalDetails{
+
+    height: 51rem;
+    width: 19rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.labresults{
+
+    margin-top: 17px;
+    height: 38rem;
+    width: 19rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+
+}

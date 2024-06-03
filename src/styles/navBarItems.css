@@ -1,5 +1,5 @@
 a{
-    font-size: 1.2rem;
+    font-size: 1rem;
    margin-right: 43px;
     color: black;
     font-weight: 400;
@@ -20,6 +20,27 @@ a{
     align-items: center;
     justify-content: center;
     border: 2px solid none;
-    border-radius: 4px;
+    border-radius: 21px;
+
    
+}
+
+/*.menuitem:hover{
+    background-color: rgb(91, 197, 96);
+    text-decoration: none;
+}*/
+
+.btn:hover{
+
+    background-color:#01F0D0;
+    text-decoration: none;
+
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
+    font-size: 0.9rem;
+    margin-right: 20px;
 }
