@@ -1,0 +1,25 @@
+a{
+    font-size: 1.2rem;
+   margin-right: 43px;
+    color: black;
+    font-weight: 400;
+  
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menuitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid none;
+    border-radius: 4px;
+   
+}

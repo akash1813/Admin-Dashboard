@@ -1,0 +1,28 @@
+.setting{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+
+    width: 4rem;
+}
+
+.imag2{
+    border-left: 1px solid rgb(204, 201, 201);
+}
+
+.name{
+    padding: 1.5rem;
+   
+  
+    
+}

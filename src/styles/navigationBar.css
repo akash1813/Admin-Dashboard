@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid whitesmoke;
+    border-radius: 40px;
+    box-shadow: 200;
+    height: 5rem;
+    width: 100vmax;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.image{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+   align-items: self-start;
+    align-content: space-between;
+    justify-content: center;
+}
