@@ -43,4 +43,10 @@ a{
     border: none;
     font-size: 0.9rem;
     margin-right: 20px;
+    background-color: transparent;
+}
+
+.menuitem:hover{
+    background-color:#01F0D0;
+    text-decoration: none;
 }
