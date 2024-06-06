@@ -10,19 +10,19 @@ function App() {
     return (
         
         <div style={{backgroundColor: '#F5F5F5', display: 'flex', flexWrap: 'wrap'}}>
-        <div style={{flex: '0 0 33.33%', padding: '10px'}}>
+        <div style={{flex: '0 0 100%'}}>
             <NavigationBar /> 
         </div>
 
-        <div style={{flex: '0 0 20%', padding: '10px'}}>
+        <div style={{flex: '0 0 24%'}}>
             <PatientDetail />
         </div>
 
-        <div style={{flex: '0 0 50%', padding: '10px'}}>
+        <div style={{flex: '0 0 53%'}}>
             <Diagnosis />
         </div>
 
-        <div style={{flex: '0 0 20%', padding: '10px'}}>
+        <div style={{flex: '0 0 15%'}}>
            <Profile />
         </div>
 
@@ -37,3 +37,4 @@ function App() {
 }
 
 export default App;
+

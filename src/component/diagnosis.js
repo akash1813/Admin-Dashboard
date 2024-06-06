@@ -8,8 +8,8 @@ function Diagnosis(){
             <React.Fragment>
                 <div className="diagnosis">
 
-           <div className="diagnosishistory">
-                <h2 className="heading">Diagnosis History</h2>
+              <div className="diagnosishistory">
+                <p className="headPara">Diagnosis History</p>
                 
                 <div className="BloodPressure">
                     <p>Blood Pressure</p>
@@ -38,6 +38,7 @@ function Diagnosis(){
                     <h2 className="heading">78 bpm</h2>
                     <p className="para2"> 🔻Lower than Average</p>
                 </div>
+
             
             </div>
 

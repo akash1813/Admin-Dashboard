@@ -6,8 +6,6 @@ function Profile(){
 
     return(
 
-
-        <React.Fragment>
          <div className="profile">
 
            <div className="personalDetails">
@@ -68,7 +66,6 @@ function Profile(){
 
             </div>
 
-            </React.Fragment>
 
     )
 
