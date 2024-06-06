@@ -1,5 +1,6 @@
 import "../styles/diagnosis.css";
 import React from'react';
+import DiagnosisList from './diagnosisList';
 
 function Diagnosis(){
 
@@ -42,8 +43,13 @@ function Diagnosis(){
 
             <div className="diagnosislist">
 
-                Diagnosis List
-            </div>
+                <h2 className="h">Diagnostic List</h2>
+
+                     <div>
+                    <DiagnosisList />
+
+                    </div>  
+            </div> 
 
             </div>
 

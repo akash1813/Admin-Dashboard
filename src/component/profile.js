@@ -1,5 +1,6 @@
 import "../styles/profile.css";
 import React from'react';
+import LabResult from "./Labresults";
 
 function Profile(){
 
@@ -62,7 +63,7 @@ function Profile(){
 
             <div className="labresults">
                 
-                Lab Results
+                    <LabResult />
             </div>
 
             </div>

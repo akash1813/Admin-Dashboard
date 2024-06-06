@@ -1,0 +1,38 @@
+.imagee{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: 0.7rem;
+
+}
+
+.details{
+
+    height: 10%;
+    width: 100%;
+    border: 1px solid none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px ;
+}
+
+.paraa1{
+
+    font-size: 0.9rem;
+    margin: 3px 0px 0px 10px;
+}
+
+.paraa2{
+    font-size: 0.8rem;
+    margin: 4px 0px 10px 10px;
+}
+
+.sidemenu{
+    
+    margin-left: 7rem;
+    
+}
+
+.details:hover{
+    background-color: #F6F7F8;
+}

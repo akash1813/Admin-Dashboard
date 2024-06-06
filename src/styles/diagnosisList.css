@@ -1,0 +1,44 @@
+.diagnosisList{
+  
+   height: 3.5rem;
+   width: 98%;
+   border: 1px solid white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #F6F7F8;
+   border-radius: 20px;
+   margin: 0px 8px 20px 8px;
+  padding: 0px 1px 0px 1px;
+
+
+}
+
+.pa{
+    font-size: 1rem;
+
+}
+
+.diagnosisList2{
+
+    height: 3.5rem;
+    width: 98%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    border-radius: 20px;
+    margin: 0px 8px 20px 8px;
+   padding: 0px 1px 0px 1px;
+ 
+
+}
+
+.diagnosisList2 p{
+    font-size: 0.9rem;
+}
+
+.diagnosisList2:hover{
+    background-color: #F6F7F8;
+}

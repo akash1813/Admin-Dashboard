@@ -4,9 +4,10 @@
     background-color: white;
 
     border-radius: 15px;
-    height: 70.5rem;
+    height: 68.7rem;
     width: 20rem;
     margin: 15px 10px 5px 5px;
+    transition: all 0.3s ease-in-out;
    
 
    
@@ -16,3 +17,33 @@
     font-size: 1.5rem;
     margin-left: 15px;
 }
+
+@media (max-width: 768px) {
+    .Patient {
+         height: 70rem;
+         width: 100%;
+         margin: 1rem;
+     }
+ 
+    .heading {
+         font-size: 1.2rem;
+         margin-left: 1rem;
+     }
+ }
+
+ .firstheading{
+    height: 3rem;
+    width: 100%;
+    border: 1px solid none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .firstheading img{
+    height: 18px;
+    width: 18px;
+    margin-top: 0.6rem;
+    margin-right: 0.9rem;
+ }

@@ -9,17 +9,18 @@
 
 .personalDetails{
 
-    height: 40rem;
+    height: 40.4rem;
     width: 100%;
     border: 1px solid white;
     border-radius: 20px;
     background-color: white;
+    margin-top: 15px;
 }
 
 .labresults{
 
     margin-top: 25px;
-    height: 29rem;
+    height: 26.9rem;
     width: 100%;
     border: 1px solid white;
     border-radius: 20px;
@@ -88,3 +89,24 @@ p{
     background-color:aliceblue;
     margin: 10px 60px 10px 60px;
 }
+
+
+
+@media (max-width: 768px) {
+    .image {
+         width: 100%;
+         height: auto;
+         margin: 20px 45px 0px 45px;
+     }
+ 
+    .Box {
+         padding-left: 20px;
+     }
+ 
+    .buton {
+         margin: 10px 20px 10px 20px;
+     }
+ }
+
+
+ 
