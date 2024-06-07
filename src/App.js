@@ -8,7 +8,7 @@ import React from 'react';
 
 function App() {
     return (
-        
+        <div style={{display:'flex',flexWrap:'wrap'}}>
         <div style={{backgroundColor: '#F5F5F5', display: 'flex', flexWrap: 'wrap'}}>
         <div style={{flex: '0 0 100%'}}>
             <NavigationBar /> 
@@ -31,7 +31,7 @@ function App() {
         {/* Add more boxes as needed */}
     </div>   
 
-    
+    </div>
 
     )
 }

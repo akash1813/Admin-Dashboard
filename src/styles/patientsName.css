@@ -13,23 +13,23 @@
     border: 1px solid none;
     display: flex;
     flex-direction: row;
-    margin-top: 10px ;
+    margin-top: 0.625rem;
 }
 
 .paraa1{
 
     font-size: 0.9rem;
-    margin: 3px 0px 0px 10px;
+    margin: 0.1875rem 0rem 0rem 0.625rem;
 }
 
 .paraa2{
     font-size: 0.8rem;
-    margin: 4px 0px 10px 10px;
+    margin: 0.25rem 0rem 0.625rem 0.625rem;
 }
 
 .sidemenu{
     
-    margin-left: 7rem;
+    margin-left: 8rem;
     
 }
 

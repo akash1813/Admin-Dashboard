@@ -50,3 +50,18 @@ a{
     background-color:#01F0D0;
     text-decoration: none;
 }
+
+
+
+@media only screen and (max-width: 1410px){
+
+    .navitems{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        width: 15rem;
+        justify-content: space-evenly;
+    }
+
+}

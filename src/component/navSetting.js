@@ -11,8 +11,8 @@ function navSetting(){
         <p style={{margin:'4px', fontSize:14}}>General Practioner</p>
         </div>
        
-        <img className='imag imag2' style={{height:"1.5rem" , width:"1.5rem", paddingLeft:'5px'}} src ='/setting.svg' alt=' company logo'/>
-        <img className='imag' style={{height:"1.5rem" , width:"1.5rem"}}src ='/menu.svg' alt=' company logo' /> 
+        <img className='imag imag2' style={{height:"1.5rem" , width:"1.5rem", paddingLeft:'5px',}} src ='/setting.svg' alt=' company logo'/>
+        <img className='imag' style={{height:"1.5rem" , width:"1.5rem",paddingLeft:'5px'}}src ='/menu.svg' alt=' company logo' /> 
        
         </div>
     )
