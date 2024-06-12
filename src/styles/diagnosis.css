@@ -1,10 +1,10 @@
 .diagnosis{
 
-    height: 70rem;
-    width:50vw;
+    height: 114vh;
+    width:50.5vw;
     border: 1px solid none;;
     margin-top:0.3rem;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
 }
 
 .BloodPressure{
@@ -22,7 +22,7 @@
 
 .diagnosishistory{
 
-    height: 40rem;
+    height: 80vh;
     width: 100%;
     border: 1px solid white;
     margin-top: 1rem;
@@ -36,7 +36,7 @@
 
 .diagnosislist{
 
-    height: 16rem;
+    height: 30vh;
     width: 100%;
     border: 1px solid white;
     margin-top: 1.5rem;
@@ -109,7 +109,7 @@
 	
 	
 /* Media query for screens smaller than 768px */
-@media (max-width: 1410px) {
+ @media (max-width: 1410px) {
     .BloodPressure,
     .diagnosishistory,
     .diagnosislist,
@@ -131,7 +131,7 @@
         flex-direction: column;
         flex-wrap: wrap;
      }
- }
+ } 
  
  /* Media query for screens smaller than 480px */
  @media (max-width: 1020px) {
@@ -142,7 +142,6 @@
     .box2,
     .box3 {
          margin: 0rem;
-       
      }
  
     .Imag {
@@ -168,6 +167,7 @@
         width: 50vw;
         height: auto;
     }
+    
  }
 
  @media (max-width: 550px) {

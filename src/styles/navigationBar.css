@@ -3,15 +3,14 @@
     flex-direction: row;
     border: 1px solid white;
     border-radius: 50px;
-    height: 3.5rem;
-    width: 98vw;
+    height: 8vh;
+    width: 99vw;
     align-content: space-evenly;
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    margin-top: 1rem;
-    margin-top: 0.5rem;
-    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+    margin-left: 0rem;
 
 }
 
@@ -25,14 +24,14 @@
 }
 
 
-@media only screen and (max-width: 1410px){
+@media only screen and (max-width: 1020px){
 
     .navbar{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        /* flex-direction: column; */
         height: auto;
-        width: auto;
+        width: 92vw;
         justify-content: space-evenly;
     }
 

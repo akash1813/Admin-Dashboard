@@ -8,9 +8,9 @@ function PatientsName(props) {
 
 
             <div onClick={()=>handleProfile(props.Key)} className='details' style={{marginTop: 40}}>
-                <img src='Profile.jpeg' className='imagee' alt="Profile"></img>
+                <img src={props.image} className='imagee' alt="Profile"></img>
 
-                  <div>
+                  <div className='data1'>
                   
                    <p className='paraa1'> {props.name}</p>
                    <p className='paraa2'>{props.gender}, {props.age}</p>

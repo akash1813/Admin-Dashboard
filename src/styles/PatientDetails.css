@@ -3,23 +3,23 @@
     border: 1px solid white;
     background-color:white;
     border-radius: 15px;
-    height: 114vh;
-    width: 23vw;
-    margin-top: 1rem;
-    margin-left: 0vw;
- 
+    height: 113.2vh;
+    width: 24vw;
+    margin-top: 1rem; 
+    margin-left: 0.5vw;
+
 }
 
 .heading{
     font-size: 1.5rem;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
 }
 
 
 
  .firstheading{
     height: 3rem;
-    width: 100%;
+    width: 23.5vw;
     border: 1px solid none;
     display: flex;
     flex-direction: row;
@@ -59,7 +59,7 @@
  @media (max-width: 1020px) {
     .Patient {
          padding: 0.2rem;
-         height: 55vh;
+         height: auto;
          width: 40vw;
      }
  

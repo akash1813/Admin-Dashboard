@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin: 1rem;
+    margin: 1vw;
 }
 
 .imag{
@@ -20,12 +20,12 @@
 }
 
 .name{
-    padding: 1rem;
+    padding: 1vw;
 
 }
 
 
-@media only screen and (max-width: 1410px){
+@media only screen and (max-width: 1020px){
 
     .setting{
         display: flex;

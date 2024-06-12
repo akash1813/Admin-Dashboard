@@ -2,14 +2,18 @@
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    margin-left: 0.7rem;
+    margin-left: 0.8rem;
 
+}
+
+.data1{
+    width: 17vw;
 }
 
 .details{
 
     height: 10%;
-    width: 100%;
+    width:100%;
     border: 1px solid none;
     display: flex;
     flex-direction: row;
@@ -27,11 +31,6 @@
     margin: 0.25rem 0rem 0.625rem 0.625rem;
 }
 
-.sidemenu{
-    
-    margin-left: 8rem;
-    
-}
 
 .details:hover{
     background-color: #F6F7F8;

@@ -1,10 +1,4 @@
-a{
-    font-size: 1rem;
-   margin-right: 43px;
-    color: black;
-    font-weight: 400;
-  
-}
+
 
 .navitems{
     display: flex;
@@ -38,10 +32,10 @@ a{
 }
 
 .btn{
-    border-radius: 20px;
-    padding: 7px;
+    border-radius: 20vw;
+    padding: 0.5vw;
     border: none;
-    font-size: 0.9rem;
+    font-size: 1vw;
     margin-right: 20px;
     background-color: transparent;
 }
@@ -53,14 +47,14 @@ a{
 
 
 
-@media only screen and (max-width: 1410px){
+@media only screen and (max-width: 1020px){
 
     .navitems{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: auto;
-        width: 15rem;
+        width: auto;
         justify-content: space-evenly;
     }
 

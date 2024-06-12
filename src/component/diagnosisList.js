@@ -1,7 +1,12 @@
 import React from 'react';
 import '../styles/diagnosisList.css';
+import {useContext} from 'react';
+import profileContext from '../context/profile';
+import data from '../utils/data';
+
 
 function DiagnosisList(){
+    const {profile} = useContext(profileContext);
 
 return(
 
@@ -16,9 +21,9 @@ return(
 
             <div className='diagnosisList2'>
 
-                <p className='pa'>Hypertension</p> 
-                <p className='pa'>Chronic high blood pressure </p>
-                <p className='pa'>Under Observation</p>
+                <p className='pa'></p> 
+                <p className='pa'> </p>
+                <p className='pa'></p>
 </div>
 
 

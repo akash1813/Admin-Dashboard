@@ -12,7 +12,7 @@ function Profile() {
 
            <div className="personalDetails">
                 
-                <img src="Profile.jpeg" className="image"></img>
+                <img src={profile.image} className="image"></img>
     
 
                 <div className="name">
