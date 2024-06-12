@@ -1,22 +1,23 @@
 import '../styles/patientsName.css';
-
-
-function PatientsName() {
-
+import profileContext from '../context/profile.js';
+import { useContext } from 'react';
+function PatientsName(props) {
+        const {handleProfile} = useContext(profileContext);
+        console.log(props.Key, props);
     return(
 
 
-            <div className='details' style={{marginTop: 40}}>
-                <img src='Profile.jpeg' className='imagee'></img>
+            <div onClick={()=>handleProfile(props.Key)} className='details' style={{marginTop: 40}}>
+                <img src='Profile.jpeg' className='imagee' alt="Profile"></img>
 
                   <div>
                   
-                   <p className='paraa1'> Akash Dhiman</p>
-                   <p className='paraa2'>Male, 22</p>
+                   <p className='paraa1'> {props.name}</p>
+                   <p className='paraa2'>{props.gender}, {props.age}</p>
 
                 </div> 
 
-                <img src="sideMenu.svg" className='sidemenu'></img>
+                <img src="sideMenu.svg" className='sidemenu' alt="sidemenu"></img>
             </div>
 
 

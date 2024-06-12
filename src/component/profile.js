@@ -1,9 +1,11 @@
 import "../styles/profile.css";
 import React from'react';
 import LabResult from "./Labresults";
-
-function Profile(){
-
+import { useContext } from "react";
+import profileContext from "../context/profile";
+function Profile() {
+  const {profile} = useContext(profileContext)
+  
     return(
 
          <div className="profile">
@@ -14,14 +16,14 @@ function Profile(){
     
 
                 <div className="name">
-                    <h3>Akash Dhiman</h3>
+                    <h3>{profile.name}</h3>
                 </div>
 
                 <div className="Box">
                  <img src="Birth.png" className="immage"></img>
                  <div> 
                    <p>Date Of Birth</p>
-                   <p><b>May 13, 2002</b></p>
+                   <p><b>{profile.dob}</b></p>
                    </div>
                 </div>
                 
@@ -29,7 +31,7 @@ function Profile(){
                   <img src="Gender.png" className="immage"></img>
                    <div>
                    <p>Gender</p>
-                   <p><b>Male</b></p>
+                   <p><b>{profile.gender}</b></p>
                    </div>
                 </div>
                 
@@ -37,21 +39,21 @@ function Profile(){
                 <img src="Phone.png" className="immage"></img>
                    <div>
                    <p>Contact Info.</p>
-                   <p><b>8219749197</b></p>
+                   <p><b>{profile.contact}</b></p>
                    </div>
                 </div>
                 <div className="Box">
                 <img src="Phone.png" className="immage"></img>
                    <div>
                    <p>Emergency Contacts</p>
-                   <p><b>7219749197</b></p>
+                   <p><b>{profile.emergencyContact}</b></p>
                    </div>
                 </div>
                 <div className="Box">
                 <img src="Phone.png" className="immage"></img>
                    <div>
                    <p>Insurance Provider</p>
-                   <p><b>LIC</b></p>
+                   <p><b>{profile.insuranceProvider}</b></p>
                    </div>
                 </div>
                 

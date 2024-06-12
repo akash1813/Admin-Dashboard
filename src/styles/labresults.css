@@ -1,27 +1,27 @@
 .first{
-    height: 10%;
-    width: 100%;
-    border: 1px solid none;
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
- }
+   height: 10%;
+   width: 100%;
+   border: 1px solid none;
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+}
 
 
- .first p{
-    margin-left: 2rem ;
- }
+.first p{
+   margin-left: 2rem ;
+}
 
- .first img{
-    height: 0.9rem;
-    width: 0.9rem;
-    margin: 8px 18px 0px 0px;
- }
+.first img{
+   height: 0.9rem;
+   width: 0.9rem;
+   margin: 8px 18px 0px 0px;
+}
 
- .first:hover{
-    background-color: #F6F7F8;
- }
+.first:hover{
+   background-color: #F6F7F8;
+}
 
 .headingg{
-    margin: 20px 0px 10px 20px;
+   margin: 20px 0px 10px 20px;
 }

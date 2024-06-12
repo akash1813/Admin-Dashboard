@@ -1,21 +1,17 @@
 .navbar{
     display: flex;
     flex-direction: row;
-    border: 4px solid white;
+    border: 1px solid white;
     border-radius: 50px;
     height: 3.5rem;
-    width: 100%;
+    width: 98vw;
     align-content: space-evenly;
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
     margin-top: 1rem;
     margin-top: 0.5rem;
-    margin-left: 0.5rem;
-   
-    
-
- 
+    margin-left: 0.2rem;
 
 }
 

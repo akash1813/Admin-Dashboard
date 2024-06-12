@@ -9,7 +9,7 @@ import React from 'react';
 function App() {
     return (
         <div style={{display:'flex',flexWrap:'wrap'}}>
-        <div style={{backgroundColor: '#F5F5F5', display: 'flex', flexWrap: 'wrap'}}>
+        <div style={{backgroundColor: '#F5F5F5', display: 'flex', flexWrap: 'wrap',justifyContent:"center"}}>
         <div style={{flex: '0 0 100%'}}>
             <NavigationBar /> 
         </div>
@@ -22,7 +22,7 @@ function App() {
             <Diagnosis />
         </div>
 
-        <div style={{flex: '0 0 15%'}}>
+        <div >
            <Profile />
         </div>
 

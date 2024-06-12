@@ -1,10 +1,10 @@
 .profile{
 
     height: 70rem;
-    width:95%;
+    width:16vw;
     border: 1px solid none;
     margin-top:0.1rem;
-    margin-left: 3.5rem;
+    margin-left: 0vw;
 }
 
 
@@ -22,7 +22,7 @@
 .labresults{
 
     margin-top: 1.5rem;
-    height: 26rem;
+    height: 15rem;
     width: 99%;
     border: 1px solid white;
     border-radius: 20px;
@@ -101,7 +101,8 @@ p{
     .profile {
          padding: 0.5rem;
          height: 100%;
-         width: 100%;
+         /* width: 50vw; */
+         /* width: 100%; */
          margin: 0.5rem;
         
      }
@@ -148,11 +149,48 @@ p{
  }
  
  /* Media query for screens smaller than 480px */
- @media (max-width: 480px) {
+ @media (max-width: 1020px) {
     .profile {
          padding: 0rem;
          height: auto;
-         width: auto;
+         width: 50vw;
+     }
+ 
+    .personalDetails,
+    .labresults {
+         padding: 0rem;
+     }
+ 
+    .image {
+         width: 20px;
+         height: 20px;
+     }
+ 
+    .Box {
+         padding-left:0rem;
+     }
+ 
+     p {
+         font-size: 0.5rem;
+     }
+ 
+    .immage {
+         height: 10px;
+         width: 10px;
+     }
+ 
+    .buton {
+         padding: 0.2rem;
+         font-size: 0.6rem;
+         margin-right: 0.25rem;
+     }
+ }
+
+ @media (max-width: 550px) {
+    .profile {
+         padding: 0rem;
+         height: auto;
+         width: 90vw;
      }
  
     .personalDetails,
