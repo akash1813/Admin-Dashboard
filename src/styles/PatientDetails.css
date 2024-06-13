@@ -34,6 +34,11 @@
     margin-right: 1rem;
  }
 
+ .LAB-results-container {
+    overflow-y: scroll;
+    height: 200vh; /* Adjust the height as needed */
+  }
+
 
  /* Media query for screens smaller than 768px */
 @media only screen and (max-width: 1410px) {

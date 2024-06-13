@@ -3,6 +3,7 @@ import React from'react';
 import DiagnosisList from './diagnosisList';
 import profileContext from '../context/profile';
 import {useContext} from 'react';
+import LineGraph from '../component/line';
 
 
 
@@ -19,7 +20,13 @@ function Diagnosis(){
                 <p className="headPara">Diagnosis History</p>
                 
                 <div className="BloodPressure">
-                    <p>Blood Pressure</p>
+                    <h5 style={{margin:0,padding:0}}>Blood Pressure</h5>
+        
+                     <LineGraph />
+                    
+
+
+                    
                 </div>
 
                 

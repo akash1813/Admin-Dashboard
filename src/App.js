@@ -2,8 +2,9 @@ import NavigationBar  from './component/navigationBar';
 import PatientDetail from './component/PatientsDetail';
 import Diagnosis from './component/diagnosis';
 import Profile from './component/profile';
-
 import React from 'react';
+
+
 
 
 function App() {

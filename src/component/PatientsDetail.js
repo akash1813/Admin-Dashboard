@@ -3,6 +3,7 @@ import PatientsName from "./patientsName.js";
 import data from  '../utils/data.js'
 
 
+
 function Patient(){ 
 const renderedItem = data.map((e, index)=>{
   return (
@@ -17,7 +18,7 @@ const renderedItem = data.map((e, index)=>{
       <img src="search.svg"></img>
       </div>
 
-          <div>
+          <div className=".LAB-results-container">
           {renderedItem}
           </div>
    
