@@ -31,8 +31,16 @@
         flex-wrap: wrap;
         /* flex-direction: column; */
         height: auto;
-        width: 92vw;
+        width: 95vw;
+        margin-left: 1vw;
         justify-content: space-evenly;
     }
 
+}
+
+@media(max-width:550px){
+    .navbar{
+      width: 92vw;
+      border-radius: 15px;
+    }
 }

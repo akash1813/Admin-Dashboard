@@ -13,9 +13,10 @@
    height: 20vh; /* Adjust the height as needed */
  }
 
+
 .first p{
    margin-left: 2rem ;
-   font-size: 0.9rem;
+   font-size: 1vw;
    
 }
 
@@ -31,4 +32,15 @@
 
 .headingg{
    margin-top: 0.5rem ;
+}
+
+
+
+@media(max-width:550px){
+   .headingg{
+        font-size: 4vw;
+    }
+    .first p{
+        font-size: 2.5vw;
+    }
 }

@@ -20,8 +20,9 @@ function Diagnosis(){
                 <p className="headPara">Diagnosis History</p>
                 
                 <div className="BloodPressure">
-                    <h5 style={{margin:0,padding:0}}>Blood Pressure</h5>
-        
+                    <h5 className="bp">Blood Pressure</h5>
+
+                   
                      <LineGraph />
                     
 

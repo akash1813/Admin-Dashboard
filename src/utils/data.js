@@ -1,11 +1,14 @@
-import AkashImage from "../images/Akash.jpeg";
-import EmmilyImage from "../images/Emilly.avif";
-import NathanImage from "../images/Nathan.avif";
-import JessicaImage from "../images/Jessica.jpeg";
+import AkashImage from "../images/Pc.jpeg";
+import EmmilyImage from "../images/Jessica.jpeg";
+import NathanImage from "../images/Tyler.jpeg";
+import JessicaImage from "../images/Olivia.jpeg";
 import RyanImage from "../images/Ryan.jpeg";
 import SamanthaImage from "../images/Samantha.webp";
-import TylerImage from "../images/Tyler.jpeg";
-import OliviaImage from "../images/Olivia.jpeg";
+import TylerImage from "../images/Nathan.avif";
+import OliviaImage from "../images/Emilly.avif";
+import AnmolImage from "../images/Anmol.jpeg";
+import GitImage from "../images/Git.avif";
+import RanbirImage from "../images/Ranbir.jpeg";
 
 
 
@@ -28,6 +31,11 @@ const data = [
           status: 'Under Observation',
       }, 
       {
+        problem: 'Diabetes',
+        description: 'High blood sugar levels',
+        status: 'Active',
+    },
+    {
         problem: 'Diabetes',
         description: 'High blood sugar levels',
         status: 'Active',
@@ -599,6 +607,169 @@ lineChartData : {
       }
 
     },
+{
+    name: 'Anmol',
+      gender: 'Male',
+      contact: '9882234285',
+      dob:'26 Feb, 2002',
+      age:'22',
+      emergencyContact: '7219749197',
+      insuranceProvider: 'LIC',
+      respiratoryRate: '20',
+      Temperature: '98.6',
+      heartRate: '78',
+      image : AnmolImage,
+      diagnosticList: [{
+          problem: 'Hypertension',
+          description: 'Chronic high blood pressure',
+          status: 'Under Observation',
+      }, 
+      {
+        problem: 'Diabetes',
+        description: 'High blood sugar levels',
+        status: 'Active',
+    },
+    {
+        problem: 'Diabetes',
+        description: 'High blood sugar levels',
+        status: 'Active',
+    },
+    {
+        problem: 'Diabetes',
+        description: 'High blood sugar levels',
+        status: 'Active',
+    },
+    
+],
+      labTest: [
+          {
+              testName: 'CBC',
+          },
+          {
+              testName: 'ECG',
+          },
+          {
+              testName: 'ECG',
+          },
+          {
+              testName: 'ECG',
+          },
+          {
+              testName: 'ECG',
+          },
+          {
+            testName: 'ECG',
+        },
+        {
+            testName: 'ECG',
+        },
+      ],
+
+      lineChartData : {
+        labels:[
+            "Oct, 2023",
+            "Nov, 2023",
+            "Dec, 2023",
+            "Jan, 2024",
+            "Feb, 2024",
+            "Mar, 2024",
+        ],
+        datasets:[
+            {
+                label: "Systolic",
+                data: [120, 119, 160,155, 124, 138],
+                borderColor: '#E66FD2',
+                lineTension:0.4,
+                pointRadius : 5,
+                pointBackgroundColor: '#E66FD2',
+
+                
+            },
+            {
+                label: "Diastolic",
+                data: [60,70, 80,100,90,60],
+                borderColor:'#8C6FE6',
+                lineTension:0.4,
+                pointRadius : 5,
+                pointBackgroundColor: '#8C6FE6',
+            }
+
+
+        ]
+
+
+    
+      }
+
+
+  },
+
+  {
+    name: 'Gitanjali',
+    gender: 'Female',
+    dob:'18 June, 2003',
+    age:'21',
+    contact: '8234567890',
+    emergencyContact: '0987654321',
+    insuranceProvider: 'Bajaj Allianz',
+    respiratoryRate: '18',
+    Temperature: '98.4',
+    heartRate: '72',
+    image : GitImage,
+    diagnosticList: [{
+        problem: 'Diabetes',
+        description: 'High blood sugar levels',
+        status: 'Active',
+    }],
+    labTest: [
+        {
+            testName: 'Urine Test',
+        },
+        {
+            testName: 'Blood Test',
+        },
+        {
+            testName: 'X-ray',
+        },
+    ],
+    lineChartData : {
+      labels:[
+          "Oct, 2023",
+          "Nov, 2023",
+          "Dec, 2023",
+          "Jan, 2024",
+          "Feb, 2024",
+          "Mar, 2024",
+      ],
+      datasets:[
+          {
+              label: "Systolic",
+              data: [110, 125, 160,155, 135, 140],
+              borderColor: '#E66FD2',
+              lineTension:0.4,
+              pointRadius : 5,
+              pointBackgroundColor: '#E66FD2',
+
+              
+          },
+          {
+              label: "Diastolic",
+              data: [80,50, 60,100,90,55],
+              borderColor:'#8C6FE6',
+              lineTension:0.4,
+              pointRadius : 5,
+              pointBackgroundColor: '#8C6FE6',
+          }
+
+
+      ]
+
+
+  
+    }
+
+},
+
 
 
 ]

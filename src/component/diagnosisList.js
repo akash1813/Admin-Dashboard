@@ -24,10 +24,10 @@ return(
                    <p>Description</p>
                    <p>Status</p>
             </div>
-
-            <div className='.Lab-results-container'>
+            <div className='Lab-results-container'>
              {renderItem}
            </div>
+           
         
 
     </React.Fragment>

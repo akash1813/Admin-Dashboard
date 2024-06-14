@@ -9,13 +9,13 @@
    padding: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
-  
- 
+   justify-content: space-between; 
  }
+
+
  
  .diagnosisList p{
-     font-size: 1rem;
+     font-size: 1.1vw;
 
  }
 
@@ -39,7 +39,7 @@
  }
  
  .diagnosisList2 p{
-     font-size: 0.9rem;
+     font-size: 1vw;
  }
  
  .diagnosisList2:hover{
@@ -49,5 +49,26 @@
 
 .Lab-results-container {
     overflow-y: scroll;
-    height: 30vh; /* Adjust the height as needed */
+    height: 15vh; /* Adjust the height as needed */
+  }
+
+
+  @media(max-width:1020px){
+    
+    .Lab-results-container{
+        overflow-y: scroll;
+        height: 5vh; /* Adjust the height as needed */
+  
+    }
+
+  }
+
+  @media(max-width:550px){
+    .diagnosisList p{
+        font-size: 3vw;
+    }
+   
+    .diagnosisList2 p{
+        font-size: 2vw;
+    }
   }

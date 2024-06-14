@@ -18,7 +18,7 @@ const renderedItem = data.map((e, index)=>{
       <img src="search.svg"></img>
       </div>
 
-          <div className=".LAB-results-container">
+         <div>
           {renderedItem}
           </div>
    
