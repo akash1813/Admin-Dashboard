@@ -607,6 +607,79 @@ lineChartData : {
       }
 
     },
+
+{
+    name: 'Olivia Brwon',
+    gender: 'Female',
+    contact: '7876548210',     
+       age:'27',
+    
+    dob:'29 June, 1997',
+    emergencyContact: '8234567890',
+    insuranceProvider: 'Oriental Insurance',
+    respiratoryRate: '16',
+    Temperature: '98.6',
+    heartRate: '75',
+    image : OliviaImage,
+    diagnosticList: [{
+        problem: 'Asthma',
+        description: 'Chronic inflammation of the airways',
+        status: 'Under Treatment',
+    },
+    {
+        problem: 'Diabetes',
+        description: 'High blood sugar levels',
+        status: 'Active',
+    },
+],
+    labTest: [
+        {
+            testName: 'Stress Test',
+        },
+        {
+            testName: 'CT Scan',
+        },
+        {
+            testName: 'Blood Test',
+        },
+    ],
+    lineChartData : {
+        labels:[
+            "Oct, 2023",
+            "Nov, 2023",
+            "Dec, 2023",
+            "Jan, 2024",
+            "Feb, 2024",
+            "Mar, 2024",
+        ],
+        datasets:[
+            {
+                label: "Systolic",
+                data: [150, 119, 160,140, 124, 180],
+                borderColor: '#E66FD2',
+                lineTension:0.4,
+                pointRadius : 5,
+                pointBackgroundColor: '#E66FD2',
+
+                
+            },
+            {
+                label: "Diastolic",
+                data: [88,70, 90,60,100,80],
+                borderColor:'#8C6FE6',
+                lineTension:0.4,
+                pointRadius : 5,
+                pointBackgroundColor: '#8C6FE6',
+            }
+
+
+        ]
+
+
+    
+      }
+
+    },
 {
     name: 'Anmol',
       gender: 'Male',
