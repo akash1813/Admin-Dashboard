@@ -7,7 +7,7 @@ function PatientsName(props) {
     return(
 
 
-            <div onClick={()=>handleProfile(props.Key)} className='details' style={{marginTop: 40}}>
+            <div onClick={()=>handleProfile(props.Key)} className='details'>
                 <img src={props.image} className='imagee' alt="Profile"></img>
 
                   <div className='data1'>
@@ -15,9 +15,14 @@ function PatientsName(props) {
                    <p className='paraa1'> {props.name}</p>
                    <p className='paraa2'>{props.gender}, {props.age}</p>
 
+                  
                 </div> 
 
-                <img src="sideMenu.svg" className='sidemenu' alt="sidemenu"></img>
+                <div className='sidemenu'>
+                <img src="sideMenu.svg" alt="sidemenu"></img>
+
+                </div>
+                
             </div>
 
 

@@ -12,12 +12,13 @@
 
 .details{
 
-    height: 10%;
+    height: 10vh;
     width:100%;
     border: 1px solid none;
     display: flex;
     flex-direction: row;
     border-radius: 15px;
+
  
 }
 
